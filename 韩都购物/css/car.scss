@@ -1,0 +1,162 @@
+.car_head{
+	overflow: hidden;
+    margin: 30px auto 10px;
+    width: 1200px;
+    height: auto;
+}
+.car_head a{
+	float: left;
+	width: 414px;
+    height: 44px;
+    background: url(../images/cart_img.png) no-repeat -15px -17px;
+}
+.car_head .step{
+	float: right;
+	margin: 15px 2px;
+    width: 700px;
+    height: 31px;
+    background: url(../images/cart_img.png) no-repeat -15px -89px;
+}
+.shopping_nr {
+    margin-top:10px;
+    overflow: hidden; 
+}
+.shopping_nr>div{
+	float: left;
+	text-align: center;
+	font-size: 13px;
+	background: #666;
+	color:#fff;
+}
+.shopping_nr ul{
+	padding:17px 0px 0px;
+}
+.shopping_nr ul h3{
+	height: 40px;
+	line-height: 60px;
+	font-size: 14px;
+	font-weight: normal;
+	padding-left: 10px
+}
+.shopping_nr ul li div{
+	float: left;;
+	text-align: center;
+	height: 130px;
+	line-height: 130px
+}
+.shopping_nr ul li div:last-child{
+	border:none;
+}
+.shopping_nr ul li{
+	height: 130px;
+	margin-top:20px ;
+	border:1px solid #999;
+	background:#eee;
+}
+.shopping_nr ul li div i{
+	display: block;
+	width: 112px;
+	height: 112px;
+	float: left;
+	margin-left:10px;
+	margin-top:10px  
+}
+.shopping_nr ul li div i img{
+	width: 112px;
+	height: 112px
+}
+.shopping_nr ul li div a{
+	display: block;
+	line-height: 24px;
+	font-size: 14px
+}
+.shopping_nr ul li div a:first-child{
+	margin-top:36px 
+}
+.shopping_nr ul li div a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.shopping_nr ul li div button{
+	width: 18px;
+	height: 18px;
+	margin: 0px 5px
+}
+.shopping_nr ul li input{
+	display: block;
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-left:5px;
+	margin-top:5px  
+}
+.shopping_nr .list{
+	background: #fff;
+	overflow: hidden;
+	color: #fff
+}
+.shopping_nr .list div{
+	float: left;
+	text-align: right;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	background: #3e3e3e
+}
+.shopping_nr .list div:first-child{
+	text-align: left;
+}
+.shopping_nr .list div i{
+	font-size: 18px;
+	color: orange;
+}
+.shopping_nr ul .cart-empty{
+    height: 98px;
+    padding: 80px 160px 120px;
+    color: #333;
+    margin: 0 auto
+}
+.shopping_nr ul .cart-empty .message {
+    height: 98px;
+    padding-left: 341px;
+    background: url(../images/car-empty.png) 250px 22px no-repeat;
+}
+.cart-empty .message ul {
+    padding-top: 23px;
+}
+.cart-empty .message li {
+    line-height: 26px;
+    height: 26px;
+    margin-top: 0px;
+    border: none;
+    background: #fff;
+}
+.cart-empty .message .txt {
+    font-size: 14px;
+    display: block;
+}
+.cart-empty .message a.btn-1 {
+    font-family: arial,"Microsoft YaHei";
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    background-color: #e74649;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0;
+
+}
+.cart-empty .message a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 14px
+}
+/*.cart-empty .message li {
+    line-height: 26px;
+}*/

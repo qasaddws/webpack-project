@@ -1,0 +1,75 @@
+.banner{
+    position: relative;
+    background:#c80a2b;
+    height: 33px;
+}
+.crumb p{
+    font: 14px arial;
+    text-indent: 5px;
+    margin-bottom: 20px;
+    margin-top:15px; 
+    color: #333;
+}
+.contents ul{
+    width: 190px;
+    height: 0px;
+    background-color: #e3e3e3;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    top: 33px;
+    left: 0;
+    opacity: 0
+}
+.sale .sale_left{
+    width: 180px;
+    float: left;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    width: 180px;
+    height: 100%;
+    background: #FFF;
+    margin-top: 25px
+}
+.sale .sale_left dl{
+    height: auto;
+    border-bottom: 1px solid #DDD
+}
+.sale .sale_left dl dt{
+    font: bold 14px/30px 'microsfot yahei';
+    /*border-bottom: 1px solid #DDD;*/
+   /* padding-top: 8px;
+    margin-bottom: 8px;*/
+    position: relative;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.sale .sale_left dl dt.active{
+    font: bold 14px/30px 'microsfot yahei';
+    border-bottom: 1px solid #DDD;
+    padding-top: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.sale h3 {
+    padding-left: 20px;
+    cursor: pointer;
+    background: url(../images/add.png) 8px center no-repeat;
+    font: 12px/26px 宋体;
+    display: none;
+}
+.sale h3.active{
+    display: none;
+    background: url(../images/del.png) 8px center no-repeat;
+}
+.sale ul li{
+    line-height: 26px;
+    padding-left:20px;
+    font-size: 12px;
+    display: none;
+}
+.sale ul li.active{
+    display: block;
+}

@@ -1,0 +1,325 @@
+.banner{
+    position: relative;
+    background:#c80a2b;
+    height: 33px;
+}
+
+.contents ul{
+    width: 190px;
+    height: 0px;
+    background-color: #e3e3e3;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    top: 33px;
+    left: 0;
+    opacity: 0
+}
+.sale{
+    overflow: hidden;
+}
+.sale .sale_left{
+    width: 180px;
+    float: left;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    width: 180px;
+    height: 100%;
+    background: #FFF;
+    margin-top: 25px
+}
+.sale .sale_left dl{
+    height: auto;
+    border-bottom: 1px solid #DDD
+}
+.sale .sale_left dl dt{
+    font: bold 14px/30px 'microsfot yahei';
+    /*border-bottom: 1px solid #DDD;*/
+    padding-top: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    cursor: pointer;
+    padding-left: 10px;
+    position: relative;
+}
+.sale .sale_left dl dt i{
+    background: url(../images/tri.png) no-repeat -2px -6px;
+    width: 5px;
+    height: 8px;
+    right: 11px;
+    position: absolute;
+    top: 18px;
+}
+.sale .sale_left dl dt i.active{
+    background-position: 0 0;
+    width: 8px;
+    height: 5px;
+    right: 10px;
+}
+.sale .sale_left dl dt.active{
+    font: bold 14px/30px 'microsfot yahei';
+    border-bottom: 1px solid #DDD;
+    position: relative;
+    cursor: pointer;
+    background: #e3e3e3
+}
+.sale h3 {
+    padding-left: 20px;
+    cursor: pointer;
+    background: url(../images/add.png) 8px center no-repeat;
+    font: 12px/26px 宋体;
+    display: none;
+}
+.sale h3.active{
+    display: block;
+}
+.sale h3.on{
+    background: url(../images/del.png) 8px center no-repeat;
+}
+.sale .sale_left ul li{
+    line-height: 26px;
+    padding-left:20px;
+    font-size: 12px;
+    display: none;
+}
+.sale .sale_left ul li.active{
+    display: block;
+}
+.sale .sale_right{
+    width: 1000px;
+    float: right;
+}
+.sale .sale_right>p{
+    font: 12px/26px arial;
+    text-indent: 5px;
+    margin: 20px 0;
+    color: #333;
+}
+.sale .sale_right>p i{
+    padding:0 10px;
+}
+.sale .sale_right .sort_bar{
+    border: 1px solid #e3e3e3;
+    box-sizing: border-box;
+}
+.sale .sale_right .sort_bar,.sale .sale_right .sort_bar ul{
+    width: 100%; 
+    height: 30px;
+}
+.sale .sale_right .sort_bar ul li{
+    float: left;
+    font-size: 14px;
+    line-height: 28px;
+    padding:0px 20px ;
+    border-right: 1px solid #e3e3e3
+}
+.sale .sale_right .sort_pro ul{
+    overflow: hidden;
+    margin-left:-13px ;
+    margin-top:10px;
+    display:none ;
+    opacity: 0
+}
+/*.sale .sale_right .sort_pro ul:first-child{
+    display: block;
+}*/
+.sale .sale_right .sort_pro ul li{
+    float: left;
+    width: 242px;
+    height: 360px;
+    box-sizing: border-box;
+    border: 2px solid #e3e3e3;
+    margin-left:11px ;
+    position: relative;
+    margin-bottom:10px;
+    box-sizing: border-box;
+}
+.sale .sale_right .sort_pro ul li.active{
+    box-sizing: border-box;
+    border-color:#c80a28;
+}
+.sale .sale_right .sort_pro ul li .por_warp{
+    background-color: #fff;
+    border-color: #fff;
+    margin: 0;
+    padding: 7px;
+    padding-bottom: 0;
+    width: 222px;
+}
+.sale .sale_right .sort_pro ul li .por_warp>img{
+    width: 222px;
+    height: 222px
+}
+.sale .sale_right .sort_pro ul li .por_warp i>img{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-top:2px 
+}
+.sale .sale_right .sort_pro ul li .por_warp i{
+    display: block;
+    width: 34px;
+    height: 34px;
+    
+    border: 1px solid #e3e3e3
+}
+.sale .sale_right .sort_pro ul li .por_warp p {
+    color: #c80a28;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+.sale .sale_right .sort_pro ul li .por_warp p cite{
+    font-size: 16px
+}
+.sale .sale_right .sort_pro ul li .por_warp b{
+    display: block;
+    text-align: center;
+    font-size: 14px
+}
+.sale .sale_right .sort_pro ul li .num{
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    float: left;
+    height: 40px;
+    width: 118px;
+    border-right:1px solid #e3e3e3 ;
+    border-top: 1px solid #e3e3e3
+}
+.sale .sale_right .sort_pro ul li .num:last-child{
+    border-right: none;
+    width: 116px
+}
+.sale .sale_right .sort_pro ul li .num:last-child span{
+    color: #38b
+}
+.sale .sale_right .sort_pro ul li .num span{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #b57c5b
+}
+.sale .sale_right .sort_pro ul li .num cite{
+    font-size: 14px;
+    color: #333
+}
+.sale .sale_right .sort_pro ul li .btn{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -67px;
+    background: #c80a28;
+    height: 67px;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all .1s linear;
+    opacity: 0;
+    outline: none;
+}
+.sale .sale_right .sort_pro ul li:hover .btn{
+    bottom:0;
+    opacity: 1;
+}
+.tocar{
+    width: 300px;
+    height: 150px;
+    border:1px solid #eee ;
+    box-sizing: border-box;
+    padding:20px;
+    position: fixed;
+    background: #fff;
+    box-shadow: 1px 1px 5px #333;
+    z-index: 53;
+    top: 50%;
+    left: 50%;
+    margin-left:-150px;
+    margin-top:-75px  ;
+    display: none;
+}
+.tocar img{
+    float: left;
+}
+.tocar h4{
+    padding-left: 50px;
+    line-height: 40px;
+    font-size: 14px
+}
+.tocar button{
+    float: left;
+    margin: 14px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background: #f90;
+    color: #fff;
+  
+
+}
+.fl {
+  float: left;
+}
+.box {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 800px ;
+  margin: 0 auto
+}
+.box button {
+  padding: 0 10px;
+  margin: 0 10px;
+  height: 40px;
+  float: left;
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  background-color: #ffffff;
+}
+.box .first-page,.box .last-page {
+  margin: 0;
+}
+.box .pageWrap {
+  height: 40px;
+  float: left;
+  overflow: hidden;
+}
+.box .pageWrap ol {
+  width: 100000px;
+  height: 40px;
+  float: left;
+}
+.box .pageWrap ol li {
+  width: 60px;
+  height: 40px;
+  border: 1px solid #ebebeb;
+  line-height: 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+  float: left;
+}
+.box .pageWrap ol .sel-page {
+  background-color: #e3e3e3;
+}
+.box .jump-text {
+  width: 60px;
+  height: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 5px;
+  float: left;
+}
+.box .jump-button {
+  margin: 0;
+  float: left;
+}
+.box .total-pages,
+.box .total-count {
+  margin-left: 10px;
+  float: left;
+  font-size: 14px;
+}
+

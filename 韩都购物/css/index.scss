@@ -1,0 +1,564 @@
+.banner .swiper-container{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 33px
+}
+.swiper-pagination-bullet{
+	width: 20px   !important;
+	height: 20px !important;
+	background-color:red
+}
+.banner_1 {
+	padding-top: 50px;
+}
+.context{
+	margin-bottom:40px;
+	overflow: hidden;
+}
+.context .context_left{
+	width: 680px;
+	
+}
+.context .context_left h3{
+	line-height: 20px;
+	font-size: 14px;
+	height: 20px
+}
+.context .context_left i{
+	display: block;
+	line-height: 20px;
+	font-size: 14px
+}
+.context .context_left ul{
+	width: 680px;
+    height: 295px;
+    position: relative;
+    border-right: 1px solid #eee;
+    border-top: 1px solid #eee;
+    /*overflow: hidden;*/
+ 	margin-top:40px ;
+}
+.context .context_left ul li{
+	float: left;
+	width: 169px;
+	height: 73px;
+	line-height: 66px;
+	text-align: center;
+    border-left: #eee 1px solid;
+    border-bottom: #eee 1px solid;
+    position: relative;
+}
+.context_left ul li i{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(0,0,0);
+	opacity: 0.6
+}
+.context .context_left ul li img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.context .context_right{
+	width: 500px;
+	border: 1px solid #e3e3e3;
+	box-sizing: border-box;
+	
+}
+.context .context_right .con ul{
+	overflow: hidden;
+	line-height: 40px;
+
+}	
+.context .context_right .con ul li{
+	float: left;
+	padding:0px 30px;
+	border-bottom: 1px solid #e3e3e3;
+
+}
+.context .context_right .con ul li.active{
+	border-bottom: 1px solid red
+}
+.context .context_right .flower{
+	height: 278px;
+	padding:0 9px 
+}
+.context .context_right .flower img{
+	margin: 15px auto
+}
+.context .context_right .flower ul{
+	padding-left: 10px
+}
+.context .context_right .flower ul li{
+	font-size: 14px;
+	line-height: 26px ;
+	list-style-image:url(../images/node.jpg) ;
+}
+
+.context .context_right .flower div{
+	display: none;
+}
+.context .context_right .flower div.active{
+	display: block;
+}
+.show{
+	overflow: hidden;
+
+}
+.show img{
+	margin: 20px 0px
+}
+.floor_ctrl{
+	position: fixed;
+	left: 10px;
+	bottom: 30px;
+	z-index: 3;
+	display: none;
+}
+.floor_ctrl ul li{
+	width: 40px;
+	height: 42px;
+	margin: 5px 0;
+	background: #f90;
+	font-size: 14px;
+	line-height: 16px;
+	padding-top:5px;
+	text-align: center;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.floor_ctrl ul li.active{
+	background: #777777;
+	color:#fff;
+}
+.pro{
+	position: relative;
+	overflow: hidden;
+	height: 340px
+}
+.pro>h3{
+	background:url("../images/index.png") no-repeat 0px -46px;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 250px
+}
+.pro>h3 ul{
+	overflow: hidden;
+}
+.pro>h3 ul li{
+	float: left;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	border-right:1px solid #e3e3e3;
+	padding:0 10px;
+}
+.pro>h3 ul li.active{
+	background-color: red;
+	color: #fff
+}
+.pro .pro_list ul{
+	overflow: hidden;
+	margin-left:-21px;
+	position: absolute;
+	top: 24px;
+	left: 0;
+	opacity: 0
+}
+.pro .pro_list ul:first-child{
+	opacity: 1
+}
+
+.pro .pro_list ul li{
+	float: left;
+	text-align: center;
+	width: 223px;
+	margin-left:21px 
+}
+.pro .pro_list li img{
+	width: 100%
+}
+
+.pro .pro_list span{
+	display: block;
+	text-align: center;
+	font-family: 'Arial';
+    font-size: 18px;
+    line-height: 40px
+}
+.pro .pro_list a{
+	display: inline-block;
+	border: 1px solid #000
+}
+.hStyle{
+	overflow: hidden;
+}
+.hStyle>h3{
+	background:url("../images/index.png") no-repeat 0px -78px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 250px;
+
+}
+.hStyle>h3 ul{
+	float: right;
+	overflow: hidden;
+}
+.hStyle>h3 ul li{
+	float: left;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 14px;
+	padding:0 20px;
+}
+.hStyle .hStyle_nav{
+	width: 190px;
+}
+.hStyle .hStyle_nav .cate{
+	background:#fafafa;
+	line-height: 16px;
+	font-size:18px;
+	height: 150px;
+	padding:10px;
+}
+.hStyle .hStyle_nav .cate a{
+	font-size: 14px;
+	line-height: 30px;
+	margin-right: 15px;
+	color: #000;
+	font-weight: bold;
+}
+.hStyle>img{
+	margin-left:10px ;
+	float: left;
+	height: 423px
+}
+.hStyle .hStyle_next{
+	margin-left:10px ;
+	float: left;
+}
+.hStyle .hStyle_next img{
+	margin-bottom:10px 
+}
+.hStyle .hStyle_last{
+	width: 200px
+}
+.hStyle .hStyle_last h3{
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color:red;
+	margin-bottom:10px 
+}
+
+.hStyle .hStyle_last ul li{
+	height: 36px;
+	border-bottom:1px solid #eeeeee;
+	line-height: 36px ;
+	font-size: 16px 
+}
+.hStyle .hStyle_last ul li h2{
+	padding-left: 10px ;
+	font-weight: normal;
+	font-size:14px;
+	display: block;
+}
+.hStyle .hStyle_last ul li .hot{
+	padding: 10px 0px;
+	display: none;
+}
+.hStyle .hStyle_last ul li .hot.active{
+	display: block
+}
+.hStyle .hStyle_last ul li .hot img{
+	width: 80px;
+	height: 114px;
+	float: left;
+	margin-right:5px 
+}
+.hStyle .hStyle_last ul li .hot p{
+	font-size: 12px;
+	line-height: 18px
+}
+.hStyle .hStyle_last ul li .hot span{
+	font-size: 13px;
+	color: orange;
+	display:block;
+}
+.hStyle .hStyle_last ul li .hot i{
+	font-size: 14px
+}
+.hStyle_list ul{
+	overflow:hidden;
+	margin-left:-21px 
+}
+
+.hStyle_list ul li{
+	float: left;
+	text-align: center;
+	width: 223px;
+	margin-left:21px ;
+	margin-bottom:10px 
+}
+.hStyle_list li img{
+	width: 100%;
+	height: 230px
+}
+.hStyle_list li span{
+	display: block;
+	text-align: center;
+	font-family: 'Arial';
+    font-size: 18px;
+    line-height: 40px
+}
+.hStyle_list li a{
+	display: inline-block;
+	border: 1px solid #000
+}
+.moth{
+	overflow: hidden;
+	margin-top:20px  ;
+	margin-bottom:10px 
+}
+.moth>h3{
+	background:url("../images/index.png") no-repeat 0px -140px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 250px;
+
+}
+.moth>h3 ul{
+	float: right;
+	overflow: hidden;
+}
+.moth>h3 ul li{
+	float: left;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 14px;
+	padding:0 20px;
+}
+.moth .moth_nav{
+	width: 190px;
+}
+.moth .moth_nav .cate{
+	background:#fafafa;
+	line-height: 16px;
+	font-size:18px;
+	height: 150px;
+	padding:10px;
+}
+.moth .moth_nav .cate a{
+	font-size: 14px;
+	line-height: 30px;
+	margin-right: 15px;
+	color: #000;
+	font-weight: bold;
+}
+.moth>img{
+	margin-left:10px ;
+	float: left;
+}
+.moth .moth_last{
+	margin-left:10px ;
+	float: left;
+}
+.wom{
+	overflow: hidden;
+	margin-top:20px  ;
+	margin-bottom:10px 
+}
+.wom>h3{
+	background:url("../images/index.png") no-repeat 0px -172px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 250px;
+
+}
+.wom>h3 ul{
+	float: right;
+	overflow: hidden;
+}
+.wom>h3 ul li{
+	float: left;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 14px;
+	padding:0 20px;
+}
+.wom .wom_nav{
+	width: 190px;
+}
+.wom .wom_nav .cate{
+	background:#fafafa;
+	line-height: 16px;
+	font-size:18px;
+	height: 150px;
+	padding:10px;
+}
+.wom .wom_nav .cate a{
+	font-size: 14px;
+	line-height: 30px;
+	margin-right: 15px;
+	color: #000;
+	font-weight: bold;
+}
+.wom>img{
+	margin-left:10px ;
+	float: left;
+}
+.wom .moth_last{
+	margin-left:10px ;
+	float: left;
+}
+.wom .wom_next img{
+	margin-bottom:9px 
+}
+.child{
+	overflow: hidden;
+	margin-top:20px  ;
+	margin-bottom:10px 
+}
+.child>h3{
+	background:url("../images/index.png") no-repeat 0px -203px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 250px;
+
+}
+.child>h3 ul{
+	float: right;
+	overflow: hidden;
+}
+.child>h3 ul li{
+	float: left;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 14px;
+	padding:0 20px;
+}
+.child .child_nav{
+	width: 190px;
+}
+.child .child_nav .cate{
+	background:#fafafa;
+	line-height: 16px;
+	font-size:18px;
+	height: 150px;
+	padding:10px;
+}
+.child .child_nav .cate a{
+	font-size: 14px;
+	line-height: 30px;
+	margin-right: 15px;
+	color: #000;
+	font-weight: bold;
+}
+.child>img{
+	margin-left:10px ;
+	float: left;
+}
+.child .child_last{
+	margin-left:10px ;
+	float: left;
+}
+.child .child_next img{
+	margin-bottom:9px 
+}
+.end{
+	margin:30px auto ;
+}
+.information{
+	height: 355px
+}
+.information h3{
+	background:url("../images/index.png") no-repeat 10px 6px;
+	height: 24px;
+	line-height: 24px;
+	text-align: right;
+	font-weight: normal;
+	font-size: 14px;
+	border-bottom: 1px solid #e3e3e3
+}
+.information #news {
+	width: 320px;
+	height: 280px;
+	margin: 20px 0px;
+	float: left;
+}
+.information #news .swiper-pagination{
+	text-align: right;
+	
+}
+.information #news .swiper-pagination span{
+	width: 10px !important;
+	height: 10px !important;
+}
+.information .news{
+	width: 300px;
+	height: 280px;
+	float: left;
+	margin-left:33px ;
+	position: relative;
+	overflow: hidden;
+}
+.information .news h4{
+	line-height: 60px;
+	background:#fff;
+	position: relative;
+	z-index: 1;
+	font-size:15px
+}
+.information .news ul{
+	position: absolute;
+	left: 0;
+	top: 60px
+}
+.information .news ul li{
+	font-size: 14px;
+	line-height: 20px
+}
+.information .fashion{
+	width: 80px;
+	float: left;
+	padding-top: 40px 
+}
+.information .email{
+	width: 430px;
+	height: 300px;
+	background: url(../images/email.png) no-repeat;
+    width: 430px;
+    height: 300px;
+    float: left;
+    margin-top: 8px;
+    margin-left:33px; 
+    position: relative;
+    margin-top:26px 
+}
+.information .email .dy{
+    position: absolute;
+    bottom: 35px;
+    left: 5px;
+}
+.information .email .dy input{
+    width: 250px;
+    height: 25px;
+    border: 1px solid #ddd;
+    float: left;
+    font: 14px/20px '宋体';
+    color: #666;
+}
+.information .email .dy button{
+    display: block;
+    width: 70px;
+    height: 22px;
+    background: url(../images/ding.png) no-repeat;
+    float: left;
+    margin: 2px 8px;
+    border: none;
+    cursor: pointer;
+}

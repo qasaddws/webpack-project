@@ -1,0 +1,52 @@
+requirejs.config({
+	baseUrl:"js/lib",
+	paths:{
+		jQuery:"jquery.min",
+		BT:"baiduTemplate",
+		SW:"swiper.min",
+		ll:"lazyload.min",
+		scroll:"scrollItem"
+	}
+})
+requirejs(['jQuery','BT','SW','ll','scroll'],function ($,template,swiper,lazyload) {
+	
+	(function() {
+		$.get("data/sale.json",{"_":new Date().getTime()},"json").always(function (data) {
+			var html=template("sale",data);
+			$(".sale .sale_left").html(html);
+			console.log(data)
+		});
+		
+		$(".contents h3,.contents ul,.menu").hover(function() {
+			
+			$(".contents ul").stop().animate({opacity:1,height:496})
+		},function () {
+			$(".contents ul").stop().animate({opacity:0,height:0})
+		})
+		
+			$(".contents ul li,.menu").mouseenter(function () {
+				$(this).addClass("active").siblings().removeClass("active")
+				$(this).children().eq(0).addClass("active").parent().siblings().children().removeClass("active")
+				$(".menu").css({height:496})	
+				$(".menu").children().eq($(this).index()).addClass("active").siblings().removeClass("active")
+				})
+			$(".menu,.contents ul li").mouseleave(function () {
+				$(".contents ul li").removeClass("active")
+				$(".menu").children().removeClass("active")
+				$(".menu").css({height:0})
+			})
+			
+		
+		$(".lian ul").scrollItem("left",102,1000)
+	})();
+	(function () {
+		$(".sale .sale_left dl").click(function(){
+			console.log(123)
+			// $(this).find("dt").addClass("active").siblings()
+			// $(this).find("dd h3").addClass("active").siblings()
+			// $(this).find("dd ul li").addClass("active").siblings()
+		})
+		
+	})()
+	})
+	
